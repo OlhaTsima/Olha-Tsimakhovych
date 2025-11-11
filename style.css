@@ -1,0 +1,57 @@
+/* --- Основні стилі для сайту --- */
+
+/* Стиль для всього тіла сторінки */
+body {
+    background-color: #faf3e0; /* світлий теплий фон */
+    font-family: Arial, sans-serif; /* стандартний шрифт */
+    color: #333; /* темно-сірий текст */
+    margin: 40px;
+}
+
+/* Заголовок сторінки */
+.page-title {
+    text-align: center; /* вирівнюємо по центру */
+    color: #a0522d; /* теплий коричневий колір */
+}
+
+/* Основний вступний текст */
+.intro-text {
+    text-align: center;
+    font-size: 18px;
+}
+
+/* Навігаційні посилання */
+.nav-links {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.nav-link {
+    color: #0055aa;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    text-decoration: underline; /* ефект при наведенні */
+}
+/* --- Галерея --- */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;         /* дозволяє переносити зображення на новий рядок */
+    justify-content: center; /* вирівнює по центру */
+    gap: 20px;               /* відстань між картинками */
+    margin-top: 30px;
+}
+
+.gallery img {
+    width: 200px;            /* розмір картинок */
+    height: auto;
+    border-radius: 10px;     /* закруглені кути */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* тінь */
+    transition: transform 0.3s; /* плавна анімація */
+}
+
+.gallery img:hover {
+    transform: scale(1.05);  /* ефект збільшення при наведенні */
+}

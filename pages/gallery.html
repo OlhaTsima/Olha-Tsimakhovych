@@ -4,30 +4,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Галерея — My postcards</title>
+    <<title>Галерея листівок</title>
+    <!-- підключаємо стиль з кореня (один рівень вгору) -->
+    <link rel="stylesheet" href="../style.css">
 </head>
-<body>
+<<body id="gallery-page">
+   <h1 class="page-title">Моя галерея листівок</h1>
 
-    <h1>Галерея листівок</h1>
-
-    <p>Тут я збиратиму улюблені листівки, які отримала від друзів з усього світу 🌍</p>
+    <p class="intro-text">Тут я збиратиму улюблені листівки, які отримала від друзів з усього світу 🌍</p>
 
     <hr>
 
     <!-- П'ять зображень -->
+<div class="gallery">
+
     <img src="../images/img1.jpg" alt="Листівка 1" width="150"><br><br>
     <img src="../images/img2.jpg" alt="Листівка 2" width="150"><br><br>
     <img src="../images/img3.jpg" alt="Листівка 3" width="150"><br><br>
     <img src="../images/img4.jpg" alt="Листівка 4" width="150"><br><br>
     <img src="../images/img5.jpg" alt="Листівка 5" width="150">
+    </div>
 
     <hr>
 
     <!-- Меню навігації -->
-    <nav>
-        <a href="../index.html">Головна</a> |
-        <a href="contact.html">Контакти</a>
-    </nav>
+     <p class="nav-links">
+        <a href="../index.html" class="nav-link">Головна</a> |
+        <a href="contact.html" class="nav-link">Контакти</a>
+    </p>
 
     <hr>
 

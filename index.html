@@ -1,17 +1,22 @@
 <!-- index.html -->
 <!DOCTYPE html>
 <html lang="uk">
-<head>
+    <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My postcards</title>
+
+    <!-- Підключення файлу стилів -->
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
 
     <!-- Заголовок сайту -->
-    <h1>Вітаю на моєму сайті!</h1>
+     <h1 class="page-title">Мої листівки</h1>
 
-    <p>Це головна сторінка мого невеликого сайту про посткросинг та колекцію листівок.</p>
+     <p class="intro-text">
+        Це головна сторінка мого невеликого сайту про посткросинг та колекцію листівок.</p>
 
     <hr>
 
@@ -45,8 +50,10 @@
 
     <!-- Меню навігації внизу сторінки -->
     <nav>
-        <a href="pages/contact.html">Контакти</a> |
-        <a href="pages/gallery.html">Галерея</a>
+        <p class="nav-links">
+        <a href="pages/contact.html" class="nav-link">Контакти</a> |
+        <a href="pages/gallery.html" class="nav-link">Галерея</a>
+    </p>
     </nav>
 
     <hr>
